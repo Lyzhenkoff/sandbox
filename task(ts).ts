@@ -58,5 +58,5 @@ cat1.changeName('Персик');
 cat2.changeName('Персик', 'Адский');
 cat1.changeFood({name: 'corn', isExpensive: false})
 
-console.log(cat1)
-console.log(cat2)
+console.log(cat1);
+console.log(cat2);
