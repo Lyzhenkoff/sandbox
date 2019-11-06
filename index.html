@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изучение vue</title>
+</head>
+<body>
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+    <span @click = "title = 'Персик доволен!'" @mouseover = 'img = img2'>Полина убрала пробел!</span>
+    <p>{{ title }}</p>
+    <img  :src=" img ">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
